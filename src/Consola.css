@@ -1,0 +1,66 @@
+.consola{
+    position: relative;
+    border-radius: 20% 20% 49% 49%/2% 2% 6.5% 6.5%;
+    background-image: linear-gradient(to right bottom,rgb(38,77,181), rgba(0,5,16,255));
+    width: 650px;
+    height: 380px;
+    aspect-ratio: 17/17;
+    margin: auto;
+    box-shadow: inset 1px 5px 5px -1px #fff9, inset -1px -2px 5px -1px #00000080, 0 1px 1px #00000013, 0 2px 2px #00000014, 0 4px 4px #0000001a, 0 8px 8px #0003, 0 16px 16px #00000038;
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.consola .pantallaConsola{
+    border-radius: 3% 3% 20% 20%/3% 3% 6.5% 6.5%;
+    color: #000;
+    overflow: hidden;
+    position: relative;
+    height: 80%;
+    width: 80%;
+    background: #efefef;
+    margin: auto;
+    transform: translateY(10%);
+}
+
+
+.borde{
+    border-radius: 3% 3% 20% 20%/3% 3% 6.5% 6.5%;
+    background: #fccd25;
+    height: 300px;
+    aspect-ratio: 10/7;
+    margin: 20px;
+    transform: translateY(0%);
+    box-shadow: inset 1px 2px 3px -1px #fff9, 0 1px 5px -1px #00000080;
+}
+
+.bordeNegro{
+    border-radius: 3% 3% 20% 20%/3% 3% 6.5% 6.5%;
+    margin: 10px 35px 10px 35px;
+    height: 250px;
+    background-color: black;
+    transform: translateY(10%);
+}
+
+.Botonera {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 9%;
+    flex-direction: column;
+    height: 220px;
+}
+
+.Botonera span {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #fccd25;;
+    text-align: center;
+    line-height: 30px;
+    
+    box-shadow: inset 1px 2px 3px -1px #fff9, 0 1px 5px -1px #00000080;
+  }

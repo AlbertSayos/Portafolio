@@ -1,0 +1,50 @@
+.MenuTrabajos {
+    background-color: transparent;
+    height: 128px;
+    max-height: 128px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    overflow: scroll;
+    scrollbar-width: none;
+  }
+
+  .MenuTrabajos::-webkit-scrollbar {
+    display: none;
+  }
+
+  .caja {
+    
+    border-radius: 5px;
+  }
+  
+  .TituloMenuTrabajos {
+    margin-bottom: -16px;
+    margin-top: -19px
+  }
+  
+  .CajaInferior {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .icono {
+    width: 20px;
+    height: 20px;
+  }
+  
+  /* Estilos adicionales */
+  a {
+    color: blue;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: red;
+  }
+  
+  span {
+    font-size: 11px;
+  }
