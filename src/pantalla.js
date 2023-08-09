@@ -65,7 +65,7 @@ const CustomButton = () => {
           {mostrarMenuRedes && <MenuRedes />}
         </div>
 
-      <div className="iconosArriba">
+      <div className="iconosAbajo">
         <img src={iconoAtaque} className="icono" onClick={atacar} />
         <img src={iconoCarne} className="icono" onClick={comer} />
       </div>

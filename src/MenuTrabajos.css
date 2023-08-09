@@ -1,6 +1,6 @@
 .MenuTrabajos {
     background-color: transparent;
-    height: 128px;
+    height: 95%;
     max-height: 128px;
     display: flex;
     flex-direction: column;
@@ -20,8 +20,8 @@
   }
   
   .TituloMenuTrabajos {
-    margin-bottom: -16px;
-    margin-top: -19px
+    margin-bottom: 0px;
+    margin-top: 0px
   }
   
   .CajaInferior {
@@ -31,8 +31,8 @@
   }
   
   .icono {
-    width: 20px;
-    height: 20px;
+    width: 4.2vmin;
+    height: 4.2vmin;
   }
   
   /* Estilos adicionales */
@@ -46,5 +46,9 @@
   }
   
   span {
-    font-size: 11px;
+    font-size: 1.5vmin;
+  }
+  .TituloMenuTrabajos h3 {
+    font-size: 4.2vmin;
+    line-height: 0px;
   }
