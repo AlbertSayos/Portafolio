@@ -15,7 +15,7 @@ function MenuTrabajos() {
         </div>
         <div className="CajaInferior">
           <span>Tienda web, donde programe el diseño de la web</span>
-          <a href="https://github.com/AlbertSayos" target="_blank">
+          <a href="https://www.cavimed.cl/" target="_blank">
               <img src={Flecha} className="icono" />
             </a>
         </div>
