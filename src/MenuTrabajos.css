@@ -1,0 +1,73 @@
+.MenuTrabajos {
+    background-color: transparent;
+    height: 95%;
+    max-height: 128px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    overflow: scroll;
+    scrollbar-width: none;
+  }
+
+  .MenuTrabajos::-webkit-scrollbar {
+    display: none;
+  }
+
+  .caja {
+    
+    border-radius: 5px;
+  }
+  
+  .TituloMenuTrabajos {
+    margin-bottom: 0px;
+    margin-top: 0px
+  }
+  
+  .CajaInferior {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .icono {
+    width: 4.2vmin;
+    height: 4.2vmin;
+  }
+  
+  /* Estilos adicionales */
+  a {
+    color: blue;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: red;
+  }
+  
+  span {
+    font-size: 1.5vmin;
+  }
+  .TituloMenuTrabajos h3 {
+    font-size: 2.2vmin;
+    line-height: 0px;
+  }
+
+@media (min-width: 1200px) {
+    .MenuTrabajos {
+        max-height: 400px;
+    }
+
+    span {
+        font-size: 18px; /* Use a fixed size for large screens */
+    }
+
+    .TituloMenuTrabajos h3 {
+        font-size: 22px; /* Use a fixed size for large screens */
+    }
+
+    .icono {
+        width: 30px;
+        height: 30px;
+    }
+}

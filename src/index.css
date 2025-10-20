@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'MiFuente';
+  src: url('retro_computer_personal_use.ttf') format('truetype');
+}
+
+body {
+  font-family: 'MiFuente';
+  background-color: white;
+}
